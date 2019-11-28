@@ -5,3 +5,36 @@
 # node-red-contrib-mystrom-switch
 
 MyStrom Switch nodes to control these devices with Node-RED.
+
+## Description
+
+This contrib module provides two simple nodes to get the current statue of a
+MyStrom Switch and to enable or disable the relay.
+
+## Instal & Run
+
+First install Node-RED itself:
+
+```node
+sudo npm install -g node-red
+```
+
+Then switch to the user home for Node-RED and install this package:
+
+```node
+npm install node-red-contrib-mystrom-switch
+```
+
+Finally run it:
+
+```node
+node-red
+```
+
+## Nodes
+
+### mystrom switch status
+
+
+
+### mystrom switch relay
