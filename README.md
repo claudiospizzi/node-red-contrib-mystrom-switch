@@ -35,12 +35,12 @@ node-red
 
 ### mystrom switch status
 
-![mystrom switch status](.assets/mystrom-switch-status.png)
-
 Node to get the current state of a MyStrom Switch.
+
+![mystrom switch status](.assets/mystrom-switch-status.png)
 
 ### mystrom switch relay
 
-![mystrom switch relay](.assets/mystrom-switch-relay.png)
-
 Node to turn the relay status of a MyStrom Switch on or off.
+
+![mystrom switch relay](.assets/mystrom-switch-relay.png)
