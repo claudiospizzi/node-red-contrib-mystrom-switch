@@ -1,4 +1,5 @@
 .assets
 .debug
 .vscode
+.eslintrc.yml
 .travis.yml
