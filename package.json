@@ -1,0 +1,38 @@
+{
+  "name": "node-red-contrib-mystrom-switch",
+  "version": "1.0.0",
+  "description": "MyStrom Switch nodes to control these devices with Node-RED",
+  "author": "Claudio Spizzi",
+  "homepage": "https://github.com/claudiospizzi/node-red-contrib-mystrom-switch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiospizzi/node-red-contrib-mystrom-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claudiospizzi/node-red-contrib-mystrom-switch/issues"
+  },
+  "keywords": [
+    "node-red",
+    "node-red-contrib",
+    "mystrom",
+    "switch"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "node-red": "^1.0.3"
+  },
+  "node-red": {
+    "nodes": {
+      "mystrom switch": "nodes/mystrom-switch-config.js",
+      "mystrom switch relay": "nodes/mystrom-switch-relay.js",
+      "mystrom switch status": "nodes/mystrom-switch-status.js"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}\\node_modules\\node-red\\red.js",
+            "args": [
+                "-v",
+                "--settings",
+                "${workspaceFolder}/.debug/node-red/settings.js",
+                "--userDir",
+                "${workspaceFolder}/.debug/node-red/user",
+                "${workspaceFolder}/.debug/node-red/flows.json"
+            ],
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "Server now running at http:\/\/127\\.0\\.0\\.1:([0-9]+)\/",
+                "uriFormat": "http://localhost:%s"
+            }
+        }
+    ]
+}

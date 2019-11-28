@@ -1,0 +1,3 @@
+.debug/node-red/user/
+.debug/node-red/.flows.json.backup
+node_modules/
