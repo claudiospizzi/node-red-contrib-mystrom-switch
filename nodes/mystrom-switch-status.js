@@ -36,6 +36,9 @@ module.exports = function (RED) {
                         power: data.power,
                         relay: data.relay
                     }
+                    if (typeof (data.temperature) !== 'undefined') {
+                        msg.payload.temperature = data.temperature
+                    }
                     node.send(msg)
                 }
             })
