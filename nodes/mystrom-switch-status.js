@@ -33,6 +33,8 @@ module.exports = function (RED) {
                     node.status({ fill: 'green', shape: 'dot', text: 'successful' })
                     var data = JSON.parse(body)
                     msg.payload = {
+                        name: node.switch.name,
+                        address: node.switch.address,
                         power: data.power,
                         relay: data.relay
                     }

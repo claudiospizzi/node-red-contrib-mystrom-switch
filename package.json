@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-mystrom-switch",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "MyStrom Switch nodes to control these devices with Node-RED",
   "author": "Claudio Spizzi",
   "homepage": "https://github.com/claudiospizzi/node-red-contrib-mystrom-switch",
