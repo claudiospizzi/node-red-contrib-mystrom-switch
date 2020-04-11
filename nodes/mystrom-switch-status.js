@@ -1,4 +1,6 @@
 module.exports = function (RED) {
+
+    // The Node-RED node mystrom-switch-status
     function MyStromSwitchStatus (config) {
 
         const request = require('request')
@@ -46,5 +48,6 @@ module.exports = function (RED) {
             })
         })
     }
+
     RED.nodes.registerType('mystrom switch status', MyStromSwitchStatus)
 }

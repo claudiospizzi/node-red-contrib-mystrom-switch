@@ -1,4 +1,6 @@
 module.exports = function (RED) {
+
+    // The Node-RED node mystrom-switch-relay
     function MyStromSwitchRelay (config) {
 
         const request = require('request')
@@ -37,5 +39,6 @@ module.exports = function (RED) {
             })
         })
     }
+
     RED.nodes.registerType('mystrom switch relay', MyStromSwitchRelay)
 }
