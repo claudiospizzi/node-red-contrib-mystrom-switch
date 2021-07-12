@@ -4,7 +4,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Debug Node-RED",
             "cwd": "${workspaceFolder}",
             "program": "${workspaceFolder}\\node_modules\\node-red\\red.js",
             "args": [
