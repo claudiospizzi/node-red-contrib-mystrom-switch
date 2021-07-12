@@ -1,5 +1,6 @@
-.assets
-.debug
-.vscode
-.eslintrc.yml
-.travis.yml
+*
+!dist/**/*
+!LICENSE
+!README.md
+!package.json
+!yarn.lock
