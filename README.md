@@ -1,4 +1,4 @@
-[![node-red-contrib](https://img.shields.io/badge/node--red-node--red--contrib--mystrom-switch-aa4444.svg?style=flat-square)](https://flows.nodered.org/node/node-red-contrib-mystrom-switch)
+[![node-red-contrib](https://img.shields.io/badge/node--red-node--red--contrib--mystrom--switch-aa4444.svg?style=flat-square)](https://flows.nodered.org/node/node-red-contrib-mystrom-switch)
 [![npm](https://img.shields.io/npm/v/node-red-contrib-mystrom-switch.svg?style=flat-square)](https://www.npmjs.com/package/node-red-contrib-mystrom-switch)
 
 # node-red-contrib-mystrom-switch
