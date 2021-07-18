@@ -20,7 +20,14 @@
     "lint:eslint": "eslint --ext .js,.ts .",
     "fix": "npm-run-all fix:prettier fix:eslint",
     "fix:prettier": "prettier --ignore-path .eslintignore --write \"**/*.{js,ts,md}\"",
-    "fix:eslint": "eslint --ext .js,.ts . --fix"
+    "fix:eslint": "eslint --ext .js,.ts . --fix",
+    "preversion": "npm-run-all lint",
+    "version": "npm-run-all version:changelog version:stage",
+    "version:changelog": "replace-in-file \"Unreleased\" \"%npm_package_version%\" CHANGELOG.md",
+    "version:stage": "git add -A",
+    "postversion": "npm-run-all postversion:push postversion:pushtag",
+    "postversion:push": "git push",
+    "postversion:pushtag": "git push --tags"
   },
   "author": "Claudio Spizzi",
   "license": "MIT",
@@ -53,7 +60,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "node-fetch": "^2.6.1"
+    "axios": "^0.21.1"
   }
 }
