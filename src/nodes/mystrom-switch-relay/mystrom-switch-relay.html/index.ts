@@ -21,7 +21,7 @@ RED.nodes.registerType<MyStromSwitchRelayEditorNodeProperties>("mystrom-switch-r
     },
   },
   inputs: 1,
-  outputs: 1,
+  outputs: 0,
   icon: "relay.png",
   paletteLabel: "relay",
   label: function () {
