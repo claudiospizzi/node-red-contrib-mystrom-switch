@@ -28,4 +28,13 @@ export class MyStromSwitch {
 
     return switchStatus;
   }
+
+  /**
+   * Set the switch relay state.
+   * @param relay The relay state: true if on, false if off.
+   */
+  async setRelay(relay: boolean): Promise<void> {
+    const url = `http://${this.address}/relay?state=${relay ? 1 : 0}`;
+    await axios.get(url);
+  }
 }
