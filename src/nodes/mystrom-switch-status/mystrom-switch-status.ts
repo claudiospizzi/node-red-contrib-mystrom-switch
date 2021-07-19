@@ -17,6 +17,8 @@ const nodeInit: NodeInitializer = (RED): void => {
           this.status({ fill: "green", shape: "dot", text: "successful" });
 
           msg.payload = {
+            name: this.switch.name,
+            address: this.switch.address,
             power: response.power,
             relay: response.relay,
             temperature: response.temperature,
