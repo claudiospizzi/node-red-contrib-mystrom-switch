@@ -5,18 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is mainly based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 2.0.0 - 2021-07-20
+## 2.0.0
 
 - Changed: Switch to a typescript based module
 
-## 1.2.0 - 2019-12-19
+## 1.2.0
 
 - Added: Return device name and address in payload
 
-## 1.1.0 - 2019-12-04
+## 1.1.0
 
 - Added: Return temperature in payload for v2 switches
 
-## 1.0.0 - 2019-11-28
+## 1.0.0
 
 - Added: Initial release
