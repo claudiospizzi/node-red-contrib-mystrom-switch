@@ -23,7 +23,7 @@ export class MyStromSwitch {
 
     const switchStatus = new MyStromSwitchStatus();
     switchStatus.power = result.data.power;
-    switchStatus.relay = result.data.relay
+    switchStatus.relay = result.data.relay;
     switchStatus.temperature = result.data.temperature;
 
     return switchStatus;
