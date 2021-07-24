@@ -1,5 +1,5 @@
-import { Node, NodeDef } from "node-red";
-import { MyStromSwitchConfigOptions } from "../shared/types";
+import { Node, NodeDef } from 'node-red';
+import { MyStromSwitchConfigOptions } from '../shared/types';
 
 export interface MyStromSwitchConfigNodeDef extends NodeDef, MyStromSwitchConfigOptions {}
 

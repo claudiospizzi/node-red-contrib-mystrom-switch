@@ -22,3 +22,7 @@ Node to get the current state of a MyStrom Switch.
 Node to turn the relay status of a MyStrom Switch on or off.
 
 ![mystrom switch relay](.assets/mystrom-switch-relay.png)
+
+## Constraint
+
+This module is not associated with the MyStrom AG.

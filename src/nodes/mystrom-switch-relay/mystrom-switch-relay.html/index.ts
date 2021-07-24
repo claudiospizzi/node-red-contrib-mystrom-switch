@@ -1,30 +1,30 @@
-import { EditorRED } from "node-red";
-import { MyStromSwitchRelayEditorNodeProperties } from "./modules/types";
+import { EditorRED } from 'node-red';
+import { MyStromSwitchRelayEditorNodeProperties } from './modules/types';
 
 declare const RED: EditorRED;
 
-RED.nodes.registerType<MyStromSwitchRelayEditorNodeProperties>("mystrom-switch-relay", {
-  category: "mystrom switch",
-  color: "#75b03a",
+RED.nodes.registerType<MyStromSwitchRelayEditorNodeProperties>('mystrom-switch-relay', {
+  category: 'mystrom switch',
+  color: '#75b03a',
   defaults: {
     name: {
-      value: "",
+      value: '',
     },
     switch: {
-      value: "",
-      type: "mystrom-switch-config",
+      value: '',
+      type: 'mystrom-switch-config',
       required: true,
     },
     relay: {
-      value: "",
+      value: '',
       required: true,
     },
   },
   inputs: 1,
   outputs: 0,
-  icon: "relay.png",
-  paletteLabel: "relay",
+  icon: 'relay.png',
+  paletteLabel: 'relay',
   label: function () {
-    return this.name || "mystrom switch relay";
+    return this.name || 'mystrom switch relay';
   },
 });
