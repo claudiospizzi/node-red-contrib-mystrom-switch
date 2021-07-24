@@ -37,6 +37,10 @@
     "type": "git",
     "url": "git+https://github.com/claudiospizzi/node-red-contrib-mystrom-switch.git"
   },
+  "bugs": {
+    "url": "https://github.com/claudiospizzi/node-red-contrib-mystrom-switch/issues"
+  },
+  "homepage": "https://github.com/claudiospizzi/node-red-contrib-mystrom-switch#readme",
   "node-red": {
     "nodes": {
       "mystrom-switch-status": "./dist/nodes/mystrom-switch-status/mystrom-switch-status.js",
