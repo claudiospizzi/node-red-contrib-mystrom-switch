@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 
 - Changed: Refactor the code base
+- Fixed: HTML select close tag missing
 
 ## 2.1.1
 
