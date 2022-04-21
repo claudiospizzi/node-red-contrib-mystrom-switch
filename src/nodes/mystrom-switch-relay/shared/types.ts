@@ -1,4 +1,4 @@
 export interface MyStromSwitchRelayOptions {
-  switch: string;
+  device: string;
   relay: string;
 }

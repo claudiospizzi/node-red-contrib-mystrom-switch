@@ -5,6 +5,6 @@ import { MyStromSwitchRelayOptions } from '../shared/types';
 export interface MyStromSwitchRelayNodeDef extends NodeDef, MyStromSwitchRelayOptions {}
 
 export interface MyStromSwitchRelayNode extends Node {
-  switch: MyStromSwitchConfigNode;
+  device: MyStromSwitchConfigNode;
   relay: string;
 }

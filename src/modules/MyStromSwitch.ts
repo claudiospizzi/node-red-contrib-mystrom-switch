@@ -1,11 +1,9 @@
 import axios from 'axios';
+import { MyStromSwitchStatus } from './MyStromSwitchStatus';
 
-export class MyStromSwitchStatus {
-  public power: number | undefined;
-  public relay: boolean | undefined;
-  public temperature: number | undefined;
-}
-
+/**
+ * Class representing a MyStrom switch.
+ */
 export class MyStromSwitch {
   private address: string;
 

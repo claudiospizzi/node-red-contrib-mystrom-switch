@@ -5,5 +5,5 @@ import { MyStromSwitchStatusOptions } from '../shared/types';
 export interface MyStromSwitchStatusNodeDef extends NodeDef, MyStromSwitchStatusOptions {}
 
 export interface MyStromSwitchStatusNode extends Node {
-  switch: MyStromSwitchConfigNode;
+  device: MyStromSwitchConfigNode;
 }

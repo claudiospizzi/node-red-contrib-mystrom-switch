@@ -10,7 +10,7 @@ RED.nodes.registerType<MyStromSwitchRelayEditorNodeProperties>('mystrom-switch-r
     name: {
       value: '',
     },
-    switch: {
+    device: {
       value: '',
       type: 'mystrom-switch-config',
       required: true,

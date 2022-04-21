@@ -26,3 +26,5 @@ Node to turn the relay status of a MyStrom Switch on or off.
 ## Constraint
 
 This module is not associated with the MyStrom AG.
+
+This software is provided "as is", without any guarantees on the function and operation of the MyStrom Switch devices. You use it at your own risk. For more details, check the license terms.
