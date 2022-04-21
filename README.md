@@ -1,6 +1,6 @@
 [![node-red-contrib](https://img.shields.io/badge/node--red-node--red--contrib--mystrom--switch-aa4444.svg?style=flat-square)](https://flows.nodered.org/node/node-red-contrib-mystrom-switch)
 [![npm](https://img.shields.io/npm/v/node-red-contrib-mystrom-switch.svg?style=flat-square)](https://www.npmjs.com/package/node-red-contrib-mystrom-switch)
-[![build](https://img.shields.io/github/workflow/status/claudiospizzi/node-red-contrib-mystrom-switch/CI?style=flat-square)](https://github.com/claudiospizzi/node-red-contrib-wh2600/actions/workflows/ci.yml)
+[![build](https://img.shields.io/github/workflow/status/claudiospizzi/node-red-contrib-mystrom-switch/CI?style=flat-square)](https://github.com/claudiospizzi/node-red-contrib-mystrom-switch/actions/workflows/ci.yml)
 
 # node-red-contrib-mystrom-switch
 
