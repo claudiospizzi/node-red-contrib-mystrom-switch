@@ -23,6 +23,7 @@ export class MyStromSwitch {
     switchStatus.power = result.data.power;
     switchStatus.relay = result.data.relay;
     switchStatus.temperature = result.data.temperature;
+    switchStatus.wattSeconds = result.data.Ws;
 
     return switchStatus;
   }
