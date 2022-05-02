@@ -20,6 +20,7 @@ const nodeInit: NodeInitializer = (RED): void => {
           power: myStromSwitchStatus.power,
           relay: myStromSwitchStatus.relay,
           temperature: myStromSwitchStatus.temperature,
+          avgWattSeconds: myStromSwitchStatus.avgWattSeconds,
         };
 
         this.status({ fill: 'green', shape: 'dot', text: 'successful' });
